@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">    <title>Document</title>
+</head>
+<body>
+    <header>
+      
+        <button class="nav-toggle" aria-label = "toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href ="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href ="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href ="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href ="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!---Introduction-->
+    <section class="intro" id="home">
+        <!-- (--) Modifier class-->
+        <h1 class = "section__title section__title--intro">
+            Hi, I am <strong>Awanee Pandey</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front End Developer</p>
+        <img src="awanee.jpeg" alt="AwaneePic" class="intro__img"/>
+   
+    </section>
+
+   
+
+    <!--Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services section__subtitle--services">My skills</h2>
+        <div class="services">
+            <div class="service">
+                <i class="fa fa-desktop iconsize" aria-hidden="true"></i>
+                <h3>Fron End Technologies</h3>
+                <p>HTML,  CSS,  BOOTSTRAP</p>
+                <p>JAVASCRIPT</p>
+                <p>REACT</p>
+                
+            </div>
+            <div class="service">
+                <i class="fa fa-database iconsize" aria-hidden="true"></i>
+                <h3>Back End and Database</h3>
+                <p>NodeJs</p>
+                <p>Java</p>
+                <p>MongoDB</p>
+             
+            </div>
+            <div class="service">
+                <i class="fas fa-tools iconsize"></i>
+                <h3>Tools and Framework</h3>
+                <p>GitHUB</p>
+                <p>VSCode</p>
+                <p>WordPress</p>
+            
+            </div>
+
+        </div>
+
+        <a href ="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & developer based out of Chicago</p>
+        
+        <div class="about-me__body">
+            <p>Hi!!! I am Awanee Pandey a Chicago based full stack web Developer. Provide IT Support to non profit organisation jeevan siksha. I am enthusiastic about designing websites and Love to help you. Pleases contact me at the information below.</p>
+            
+                <div class="row">
+                    <i class="fas fa-user"></i>
+                  
+                       Name: Awanee Pandey
+                  
+                </div>
+                <div class="row">
+                    <i class="fas fa-map-marker-alt"></i>
+                   
+                       Address: Chicago, IL 
+                </div>
+                <div class="row">
+                    <i class="fas fa-envelope"></i>
+                        Email: awanee.pandey@gmail.com
+                  
+                </div>
+          
+        </div>
+     </section>
+   
+
+    <!--Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my projects</p>
+        
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="budgetCalculator.html" class="portfolio__item">
+                <img src="img/BudgetCalculator.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 02 -->
+          
+            <a href="pigGame.html" class="portfolio__item">
+                <img src="img/pigGame.png" alt="" class="portfolio__img">
+             </a>
+            <!-- Portfolio item 03 -->
+            <a href="netflix.html" class="portfolio__item">
+                <img src="img/netflix.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 04 -->
+            <a href="beatBox.html" class="portfolio__item">
+                <img src="img/beatBox.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 05 -->
+            <a href="guessNumber.html" class="portfolio__item">
+                <img src="img/guessNumber.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 06 -->
+            <a href="amzon.html" class="portfolio__item">
+                <img src="img/amazon.png" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+  
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="mailto:awanee.pandey@gmail.com">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.instagram.com/pandeyawanee/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/in/awanee-pandey-72a44569/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/awanee-pandey">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+
+
+   
+   <script src="index.js"></script>
+</body>
+</html>
